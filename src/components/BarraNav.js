@@ -14,6 +14,7 @@ function BarraNav(){
                 <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Inicio</a></li>
                 <li class="nav-item"><a class="nav-link" href="/GestionPrecios">Registro</a></li>
                 <li class="nav-item"><a class="nav-link" href="/GestionDispon">Contacto</a></li>
+               
             </ul>
         </div>
     </div>
