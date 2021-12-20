@@ -5,6 +5,8 @@ import BarraNav from './components/BarraNav';
 import GestionPrecios from './components/GestionPrecios';
 import Footer from './components/Footer';
 import GestionDispon from './components/GestionDispon';
+import FormPrecios from './components/FormPrecios';
+import FormDisp from './components/FormDispon';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Puntos from './components/Puntos';
 
@@ -18,6 +20,8 @@ function App() {
         <Route exact path="/GestionPrecios" element={<GestionPrecios />} />
         <Route exact path="/GestionDispon" element={<GestionDispon />} />
         <Route exact path="/Puntos" element={<Puntos />} />
+         <Route exact path="/FormPrecios" element={<FormPrecios />} />
+        <Route exact path="/FormDisp" element={<FormDisp />} />
       </Routes> 
      
       <Footer />  
