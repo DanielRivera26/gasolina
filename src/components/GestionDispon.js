@@ -3,7 +3,9 @@ function GestionDispon(){
     return(
         <div>
             <div className="container w-75 my-5">
-            <button type="button" class="btn btn-outline-primary btn-lg">Nuevo</button>
+                <Link className="NuevaDisp" to="/FormDisp">
+                    <button type="button" class="btn btn-outline-primary btn-lg">Nuevo</button>
+                </Link>
             </div>
             <div className="container w-75 mb-5 border-1 rounded shadow">
 
