@@ -4,7 +4,7 @@ function GestionPrecios(){
         <div>
             <div className="container w-75 my-5">
                 <Link className="NuevoPrecio" to="/FormPrecios">
-                    <button type="button" class="btn btn-outline-primary btn-lg">Nuevo</button>
+                    <button type="button" className="btn btn-outline-primary btn-lg">Nuevo</button>
                 </Link>
             
             </div>
@@ -31,8 +31,8 @@ function GestionPrecios(){
                             <td>2021-02-26</td>
                             <td>2022-02-26</td>
                             <td>$8.900</td>
-                            <td><i class="bi bi-pencil" ></i></td>
-                            <td><i class="bi bi-trash"></i></td>
+                            <td><i className="bi bi-pencil" ></i></td>
+                            <td><i className="bi bi-trash"></i></td>
                             
                         </tr>
                         
