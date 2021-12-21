@@ -11,9 +11,9 @@ function BarraNav(){
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                 
-                <li className="nav-item"><a className="nav-link active" aria-current="page" href="#!">Inicio</a></li>
-                <li className="nav-item"><a className="nav-link" href="/GestionPrecios">Registro</a></li>
-                <li className="nav-item"><a className="nav-link" href="/GestionDispon">Contacto</a></li>
+                <li className="nav-item"><a className="nav-link active" aria-current="page" href="/">Inicio</a></li>
+                <li className="nav-item"><a className="nav-link" href="/Login">Login</a></li>
+                <li className="nav-item"><a className="nav-link" href="/Menu">Cerrar Sesion</a></li>
                
             </ul>
         </div>

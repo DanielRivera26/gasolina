@@ -16,8 +16,8 @@ function Funciones(){
                         <div className="card bg-light border-0 h-100">
                             <div className="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                                 <a href="/Puntos" ><div className="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4" ><i className="bi bi-truck"></i></div></a>
-                                <h2 className="fs-4 fw-bold">¡Sistema de Puntos!</h2>
-                                <p className="mb-0">Tenemos un sistema de puntos que te ayudaran a llegar a tu destino como si fuera gratis</p>
+                                <h2 className="fs-4 fw-bold">¡Compra tu gasolina!</h2>
+                                <p className="mb-0">Pudes comprar tu gasolina solo a dando un Click, asi de facil.</p>
                             </div>
                         </div>
                     </div>
