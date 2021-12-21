@@ -4,7 +4,7 @@ function GestionDispon(){
         <div>
             <div className="container w-75 my-5">
                 <Link className="NuevaDisp" to="/FormDisp">
-                    <button type="button" class="btn btn-outline-primary btn-lg">Nuevo</button>
+                    <button type="button" className="btn btn-outline-primary btn-lg">Nuevo</button>
                 </Link>
             </div>
             <div className="container w-75 mb-5 border-1 rounded shadow">
@@ -36,8 +36,8 @@ function GestionDispon(){
                             <td>10</td>
                             <td>2021-02-26</td>
                             <td>30</td>
-                            <td><i class="bi bi-pencil" ></i></td>
-                            <td><i class="bi bi-trash"></i></td>
+                            <td><i className="bi bi-pencil" ></i></td>
+                            <td><i className="bi bi-trash"></i></td>
                             
                         </tr>
                         <tr>
@@ -50,8 +50,8 @@ function GestionDispon(){
                             <td>5</td>
                             <td>2021-02-28</td>
                             <td>25</td>
-                            <td><i class="bi bi-pencil" ></i></td>
-                            <td><i class="bi bi-trash"></i></td>
+                            <td><i className="bi bi-pencil" ></i></td>
+                            <td><i className="bi bi-trash"></i></td>
                             
                         </tr>
                         

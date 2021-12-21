@@ -43,10 +43,10 @@ export default function FormPrecios() {
                             <input className="form-control" type="number" name="Precio" id="Precio"/>
                         </div>
                         <Link className="" to="/GestionPrecios">
-                            <button type="button" class="btn btn-outline-danger " >Cancelar</button>
+                            <button type="button" className="btn btn-outline-danger " >Cancelar</button>
                         </Link>
                         <Link className="NuevoPrecio" to="/FormPrecios">
-                            <button type="button" class="btn btn-outline-primary " id="BotonPd">Guardar</button>
+                            <button type="button" className="btn btn-outline-primary " id="BotonPd">Guardar</button>
                         </Link>
                     </form>
 

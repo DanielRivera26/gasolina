@@ -9,6 +9,8 @@ import FormPrecios from './components/FormPrecios';
 import FormDisp from './components/FormDispon';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Puntos from './components/Puntos';
+import Login from './components/Login';
+import Menu from './components/Menu';
 
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
         <Route exact path="/Puntos" element={<Puntos />} />
          <Route exact path="/FormPrecios" element={<FormPrecios />} />
         <Route exact path="/FormDisp" element={<FormDisp />} />
+        <Route exact path="/Login" element={<Login />} />
+        <Route exact path="/Menu" element={<Menu />} />
       </Routes> 
      
       <Footer />  

@@ -53,10 +53,10 @@ export default function FormDisp() {
                             <input className="form-control" type="date" name="fechaMov" id="fechaMov"/>
                         </div>
                         <Link className="" to="/GestionDispon">
-                            <button type="button" class="btn btn-outline-danger " >Cancelar</button>
+                            <button type="button" className="btn btn-outline-danger " >Cancelar</button>
                         </Link>
                         <Link className="NuevoDis" to="/FormDisp">
-                            <button type="button" class="btn btn-outline-primary " id="BotonPd">Guardar</button>
+                            <button type="button" className="btn btn-outline-primary " id="BotonPd">Guardar</button>
                         </Link>
                     </form>
 

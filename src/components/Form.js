@@ -62,19 +62,19 @@ export default function Form() {
     }
 
     return (
-        <div class="position-relative start-50">
+        <div className="position-relative start-50">
 
             
 
-                <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" >
-                    <div class="btn btn-primary" type="button" disabled><ComboBox nombre={"Islas"} opciones={["Isla 1", "Isla 2", "Isla 3"]} setOpcion={setIsla} /></div>
+                <span className="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" >
+                    <div className="btn btn-primary" type="button" disabled><ComboBox nombre={"Islas"} opciones={["Isla 1", "Isla 2", "Isla 3"]} setOpcion={setIsla} /></div>
                 </span>
 
                 <br />
                 <br />
 
-                <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" >
-                    <div class="btn btn-primary" type="button" disabled>{
+                <span className="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" >
+                    <div className="btn btn-primary" type="button" disabled>{
                         reload && <ComboBox nombre={"Gasolinas"} opciones={gasolinas.map(function (element) { return element.Nombre })} setOpcion={setGasolina} />
                     } </div>
                 </span>
@@ -82,8 +82,8 @@ export default function Form() {
                 <br />
                 <br />
 
-                <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" >
-                    <div class="btn btn-primary" type="button" disabled>
+                <span className="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" >
+                    <div className="btn btn-primary" type="button" disabled>
                         <div>
                             <label>Galones: </label>
                             <input
@@ -98,8 +98,8 @@ export default function Form() {
 
 
                 <br /><br />
-                <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" >
-                    <div class="btn btn-primary" type="button" disabled>
+                <span className="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" >
+                    <div className="btn btn-primary" type="button" disabled>
                         <div>
                             <label>Total: </label>
                             <input
@@ -111,8 +111,8 @@ export default function Form() {
                 </span>
                 <br /><br />
 
-                <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" >
-                    <div class="btn btn-primary" type="button" disabled>
+                <span className="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" >
+                    <div className="btn btn-primary" type="button" disabled>
                         <div>
                             <label>Pago: </label>
                             <input
@@ -126,8 +126,8 @@ export default function Form() {
                 <br /><br />
 
 
-                <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" >
-                    <div class="btn btn-primary" type="button" disabled>
+                <span className="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" >
+                    <div className="btn btn-primary" type="button" disabled>
                         <div>
                             <button onClick={Pagar}>
                                 Pagar
@@ -138,8 +138,8 @@ export default function Form() {
 
                 <br /><br />
 
-                <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" >
-                    <div class="btn btn-primary" type="button" disabled>
+                <span className="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" >
+                    <div className="btn btn-primary" type="button" disabled>
                         <div>
                             <label>Vueltas: </label>
                             <input
